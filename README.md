@@ -19,7 +19,7 @@ docker run --rm -it --gpus all --entrypoint bash openai-whisper
 ### OpenAI Whisper Large v3 on podcast.mp3
 
 ```
-$ whisper --model large --language Norwegian podcast.mp3
+$ whisper --model large --language Norwegian --device cuda podcast.mp3
 
 File: ./benchmarks/podcast-openai-whisper-large-v3.srt
 Time: 7 minutes 12 seconds
