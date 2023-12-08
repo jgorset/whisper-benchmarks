@@ -21,7 +21,7 @@ docker run --rm -it --gpus all --entrypoint bash openai-whisper
 ```
 $ whisper --model large --language Norwegian podcast.mp3
 
-File: ./benchmarks/podcast-whisper-large-v3.srt
+File: ./benchmarks/podcast-openai-whisper-large-v3.srt
 Time: 7 minutes 12 seconds
 ```
 
@@ -30,6 +30,6 @@ Time: 7 minutes 12 seconds
 ```
 $ python nb-whisper.py
 
-File: ./benchmarks/podcast-whisper-large-v3.json
+File: ./benchmarks/podcast-nb-whisper-large-v3.json
 Time: 2 minutes 28 seconds
 ```
