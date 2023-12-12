@@ -12,20 +12,14 @@ pip install -r requirements.txt
 
 ## Benchmarks
 
-### OpenAI Whisper Large v3 on podcast.mp3
+```bash
+./benchmark.sh
 
-```
-$ whisper --model large --language Norwegian --device cuda podcast.mp3
+OpenAI Whisper:
+real    4m16.505s
+user    4m8.548s
+sys     2m5.582s
 
-File: ./benchmarks/podcast-openai-whisper-large-v3.srt
-Time: 7 minutes 12 seconds
-```
+NB Whisper:
 
-### NB Whisper Large on podcast.mp3
-
-```
-$ python nb-whisper.py
-
-File: ./benchmarks/podcast-nb-whisper-large-v3.json
-Time: 2 minutes 28 seconds
 ```
