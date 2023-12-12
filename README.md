@@ -1,17 +1,13 @@
 # Transcription tests
 
-## Usage
-
-Build the image:
+## Installation
 
 ```bash
-docker build -t openai-whisper .
+sudo apt install ffmpeg
 ```
 
-Run a shell in the image:
-
 ```bash
-docker run --rm -it --gpus all --entrypoint bash openai-whisper
+pip install -r requirements.txt
 ```
 
 ## Benchmarks
